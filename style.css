@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dropDownUL {
+    background-color: gold;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.dropDownUL li {
+    float: left;
+}
+
+/* ,
+.btn */
+.dropDownUL li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 16px;
+    color: black;
+    text-align: center;
+}
+
+.dropDownUL li a:hover,
+.dropDownBtn:hover .btn {
+    background-color: RED;
+}
+
+/* .dropDownUL li.dropDownBtn {
+    display: inline-block;
+} */
+
+#dropDownContent {
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px grey;
+    z-index: 1;
+}
+
+#dropDownContent a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#dropDownContent a:hover {
+    background-color: black;
+}
+
+.dropDownBtn:hover #dropDownContent {
+    display: block;
+}
+
+
+
+/* 
+++++++++++++++++++++++++++++++++
+*/
+
+.dp {
+    position: relative;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.dp>img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.img-div {
+    display: none;
+    min-width: 400px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.img-div img {
+    width: 100%;
+}
+
+.dp:hover .img-div {
+    /* cursor: pointer; */
+    display: block;
+}
+
+
+/* 
+++++++++++++++++++++++++++++++++
+*/
